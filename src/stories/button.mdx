@@ -1,0 +1,12 @@
+import { Meta, Canvas, Story, ArgsTable } from '@storybook/addon-docs';
+import * as ButtonStories from './button.stories';
+
+<Meta of={ButtonStories} />
+
+# Button
+
+<Canvas>
+  <Story of={ButtonStories.Primary} />
+</Canvas>
+
+<ArgsTable of={ButtonStories} />
